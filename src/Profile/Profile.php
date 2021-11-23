@@ -14,7 +14,7 @@ class Profile
     private $environment;
 
     /**
-     * Define a propriedade {@see Profile::$keyId}.
+     * Define the property {@see Profile::$keyId}.
      *
      * @param string $keyId
      *
@@ -27,7 +27,7 @@ class Profile
     }
 
     /**
-     * Retorna a propriedade {@see Profile::$keyId}.
+     * Return the property {@see Profile::$keyId}.
      *
      * @return string
     */
@@ -37,7 +37,7 @@ class Profile
     }
 
     /**
-     * Define a propriedade {@see Profile::$apiKey}.
+     * Define the property {@see Profile::$apiKey}.
      *
      * @param string $apiKey
      *
@@ -50,7 +50,7 @@ class Profile
     }
 
     /**
-     * Retorna a propriedade {@see Profile::$apiKey}.
+     * Return the property {@see Profile::$apiKey}.
      *
      * @return string
     */
@@ -60,7 +60,7 @@ class Profile
     }
 
     /**
-     * Define a propriedade {@see Profile::$environment}.
+     * Define the property {@see Profile::$environment}.
      *
      * @param int $environment
      *
@@ -73,7 +73,7 @@ class Profile
     }
 
     /**
-     * Retorna a propriedade {@see Profile::$environment}.
+     * Return the property {@see Profile::$environment}.
      *
      * @return string
     */

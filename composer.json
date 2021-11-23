@@ -10,7 +10,9 @@
     "require": {
         "guzzlehttp/guzzle": "^7.0",
         "eloquent/enumeration": "^6.0",
-        "slim/slim": "^4.9"
+        "slim/slim": "^4.9",
+        "shotstack/shotstack-sdk-php": "^0.1.5",
+        "benlipp/srt-parser": "^1.1"
     },
     "autoload": {
         "psr-4": {
