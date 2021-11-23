@@ -1,0 +1,22 @@
+{
+    "name": "adriangus/video-maker",
+    "description": "Create custom videos using browser",
+    "authors": [
+        {
+            "name": "Adrian Gusberti",
+            "email": "adrian.m.gusberti@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "eloquent/enumeration": "^6.0",
+        "slim/slim": "^4.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "AdrianGus\\VideoMaker\\":  [
+                "src/"
+            ]
+        }
+    }
+}
