@@ -79,6 +79,12 @@ class Profile
     */
     public function getEnvironment(): string
     {
+        if ($this->environment == 1) {
+            $this->environment = "https://api.shotstack.io/stage";
+        } else {
+            $this->environment = "https://api.shotstack.io/stage";
+        }
+        
         return $this->environment;
     }
 }
